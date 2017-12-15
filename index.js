@@ -1,25 +1,6 @@
 var fs = require('fs');
 var path = require('path');
 
-var cache = {};
-
-var doCache = function(cache, filePath) {
-    if(cache && filePath) {
-        var stat = fs.statSync(filePath);
-        if(stat.isFile()) {
-            var content = fs.readFileSync(filePath);
-            cache[filePath] = content;
-        }
-        else {
-            throw Error(`${filePath} is not a file path!`);
-        }
-    }
-}
-
-var doReplace = function(catalogPath, contentStr) {
-
-}
-
 module.exports = {
     // Map of hooks
     hooks: {},
