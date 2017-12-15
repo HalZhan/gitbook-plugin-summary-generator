@@ -1,0 +1,29 @@
+{
+  "name": "gitbook-plugin-summary-generator",
+  "version": "1.0.0",
+  "description": "For generating gitbook-summary more easily.",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {
+    }
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HalZhan/gitbook-plugin-summary-generator.git"
+  },
+  "keywords": [
+    "gitbook"
+  ],
+  "author": "halzhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HalZhan/gitbook-plugin-summary-generator/issues"
+  },
+  "homepage": "https://github.com/HalZhan/gitbook-plugin-summary-generator#readme"
+}
